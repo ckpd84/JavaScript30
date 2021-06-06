@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Scoped CSS Variables and JS</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h2>Update CSS Variables with <span class="hl">JS</span></h2>
+		<div class="controls">
+			<label for="background">Background:</label>
+			<input id="background" type="color" name="background" value="#fff" />
+
+			<label for="color">Font Color:</label>
+			<input id="color" type="color" name="color" value="#111" />
+
+			<label for="size">Font Size:</label>
+			<input
+				id="size"
+				type="range"
+				name="size"
+				min="10"
+				max="50"
+				value="10"
+				data-sizing="px"
+			/>
+			<label for="weight">Font Weight:</label>
+			<input
+				id="weight"
+				type="range"
+				name="weight"
+				min="100"
+				max="900"
+				step="100"
+				value="100"
+			/>
+		</div>
+		<div class="text-container">
+			<p class="text">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatem
+				non minus vitae corporis dignissimos. Laudantium ducimus veritatis omnis
+				ea quod eligendi a deserunt officia animi magni unde, similique fuga
+				deleniti cum veniam. Aperiam excepturi pariatur minima nesciunt
+				provident velit, dolores sint labore quo blanditiis id eum error
+				cupiditate quam fuga doloribus voluptatibus iusto. Doloribus porro qui
+				dolor! Sapiente laudantium accusantium aut odit a officiis, quae odio,
+				in commodi tempore nobis voluptatum debitis. Eaque quo ex itaque
+				reiciendis. Voluptates ipsa necessitatibus, tempore expedita similique
+				obcaecati asperiores aperiam veniam sapiente. Consequatur repellendus
+				qui fugiat, optio et doloremque veritatis at delectus sunt!
+			</p>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
